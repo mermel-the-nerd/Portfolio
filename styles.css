@@ -1,0 +1,152 @@
+header {
+ height:500px;
+  position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0;
+    
+  
+}
+
+.coverimg {
+  position:absolute;
+    top:0;
+    left:50vw-width; 
+    object-fit:cover;
+    z-index:-1;
+    height:500px; 
+    margin:auto;
+  
+}
+
+body {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.covercontent {
+  display:flex;
+  justify-content:center;
+  flex-direction: column;
+  
+  margin-left:25px; /*coverimg height /20*/
+}
+
+.headshot {
+  
+  width: 125px;/*quarter of coverimg height*/
+  z-index:2;
+  }
+
+ .shelf > img {
+  width:80vw;
+  margin-top: -10px;
+ }
+
+ .shelf {
+  text-align:center;
+ }
+
+.bookcover > div{
+  position:absolute;
+  background-color:black;
+ 
+  z-index:3;
+  
+  opacity:0;
+}
+
+.bookcover > div:hover {
+  opacity:0.5;
+}
+
+
+#nukemoonbtn {
+  top:720px;
+  left:370px;
+  width:85px;
+  height:175px;
+}
+
+#hisdarkmaterialsbtn {
+  top:1040px;
+  left: 705px;
+  width:162px;
+  height:62px;
+}
+
+#greekmythdocbtn {
+  top:1397px;
+  left:420px;
+  width:60px;
+  height:140px;
+}
+
+#icecreamformbtn {
+  top:1142px;
+  left: 910px;
+  width:50px;
+  height:155px;
+}
+
+ .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 5; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin:7% auto;
+  margin-bottom:5%;
+   /* 15% from the top and centered */
+  padding: 10px;
+  border: 1px solid #888;
+  width: 60%; /* Could be more or less, depending on screen size */
+  height: 80%;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  
+}
+
+#hdmimg {
+  width: 75%;
+}
+
+#hisdarkmaterials, #icecreamform > div {
+  height: 65%;
+}
+.modal-content > img {
+  width: 50%;
+  }
+
+/* The Close Button */
+.close {
+ 
+  background-color: #a0c4c6;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  margin-top:10px;  
+  width:50%;
+  border:none;
+  height:50px;
+  font-size: 15px;
+  
+}
+  
+  
