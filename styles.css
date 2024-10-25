@@ -123,16 +123,20 @@ body {
   
 }
 
+.modal-content > a > img {
+  width: 50%;
+}
+
 #hdmimg {
   width: 75%;
 }
 
-#hisdarkmaterials, #icecreamform > div {
+
+
+#hisdarkmaterials > div, #icecreamform > div {
   height: 65%;
 }
-.modal-content > img {
-  width: 50%;
-  }
+
 
 /* The Close Button */
 .close {
