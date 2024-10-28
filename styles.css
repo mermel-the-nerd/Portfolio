@@ -7,6 +7,7 @@ header {
     text-align:center;
     padding:0;
     
+    
   
 }
 
@@ -99,6 +100,7 @@ body {
   z-index: 5; /* Sit on top */
   left: 0;
   top: 0;
+  
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   /* Enable scroll if needed */
@@ -108,23 +110,39 @@ body {
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
-  margin:7% auto;
-  margin-bottom:5%;
+  background-image: url(better-book-image.png);
+  background-repeat: no-repeat;
+background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the image */
+    margin:7% auto;
+  margin-bottom:20%;
    /* 15% from the top and centered */
   padding: 10px;
-  border: 1px solid #888;
-  width: 60%; /* Could be more or less, depending on screen size */
+  /*border: 1px solid #888;*/
+  width: 100%; /* Could be more or less, depending on screen size */
   height: 80%;
   text-align:center;
   display:flex;
-  flex-direction:column;
+  flex-direction:row;
   align-items: center;
   
 }
 
-.modal-content > a > img {
-  width: 50%;
+.modal-text {
+  display:flex;
+  flex-direction:column;
+    margin-top:80px;
+  margin-right:35%;
+  
+}
+.modal-img{
+  display:flex;
+  flex-direction:column;
+  margin-left:23%;
+}
+
+.modal-img> a > img {
+  width: 20%;
 }
 
 #hdmimg {
