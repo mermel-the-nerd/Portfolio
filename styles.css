@@ -119,35 +119,39 @@ background-size: cover; /* Ensures the image covers the entire area */
    /* 15% from the top and centered */
   padding: 10px;
   /*border: 1px solid #888;*/
-  width: 100%; /* Could be more or less, depending on screen size */
+  width: 90%; /* Could be more or less, depending on screen size */
   height: 80%;
   text-align:center;
   display:flex;
-  flex-direction:row;
+ /* flex-direction:row;*/
   align-items: center;
+  justify-content: center;
+  gap:20px;
   
 }
 
 .modal-text {
   display:flex;
   flex-direction:column;
-    margin-top:80px;
+    margin-top:120px;
   margin-right:35%;
+  
+  
+  
   
 }
 .modal-img{
   display:flex;
   flex-direction:column;
-  margin-left:23%;
+  margin-left:330px;
+  width:90%;
+  margin-top: 50px;
+ 
 }
 
 .modal-img> a > img {
-  width: 20%;
-}
-
-#hdmimg {
-  width: 75%;
-}
+  width: 50%;
+} 
 
 
 
@@ -159,16 +163,39 @@ background-size: cover; /* Ensures the image covers the entire area */
 /* The Close Button */
 .close {
  
-  background-color: #a0c4c6;
+  
   margin-left:auto;
   margin-right:auto;
   display:block;
   margin-top:10px;  
-  width:50%;
-  border:none;
-  height:50px;
-  font-size: 15px;
+  width:60%;
+    height:50px;
+   background-color: #e0e0e0;
+  color: #555;
+  font-size: 14px;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
   
+}
+
+#greekmythdoc > .close {
+  width: 80%;
+}
+
+#hisdarkmaterials > .modal-text {
+  margin-top: 50px;
+}
+
+#greekmythdoc > .modal-img {
+ margin-left: 300px;
+}
+
+
+.close:hover {
+  background-color: #d4d4d4;
 }
   
   
